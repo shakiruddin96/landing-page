@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VogueNova - Redefining Fashion</title>
+  <meta name="description" content="VogueNova is a cutting-edge fashion brand blending bold designs with timeless style." />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-900">VogueNova</h1>
+      <nav class="space-x-6 text-sm font-semibold">
+        <a href="#collections" class="hover:text-indigo-500">Collections</a>
+        <a href="#about" class="hover:text-indigo-500">About</a>
+        <a href="#contact" class="hover:text-indigo-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100">
+    <div class="container mx-auto px-6 py-20 flex flex-col-reverse md:flex-row items-center">
+      <div class="md:w-1/2">
+        <h2 class="text-4xl font-bold mb-4">Redefining Modern Fashion</h2>
+        <p class="text-lg text-gray-700 mb-6">Explore our bold new line of street and runway-ready styles crafted with passion and precision.</p>
+        <a href="#collections" class="bg-indigo-600 text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-indigo-700">Shop the Collection</a>
+      </div>
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <img src="https://source.unsplash.com/600x600/?fashion,model" alt="Fashion Hero" class="rounded-lg shadow-lg w-full"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collections Section -->
+  <section id="collections" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h3 class="text-3xl font-bold text-center mb-12">Featured Collections</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div class="border rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/400x500/?fashion,dress" alt="Dress" class="w-full h-72 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-lg mb-2">Urban Luxe</h4>
+            <p class="text-gray-600 text-sm">A fusion of street and elegance, crafted for the modern explorer.</p>
+          </div>
+        </div>
+        <div class="border rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/400x500/?fashion,coat" alt="Coat" class="w-full h-72 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-lg mb-2">Minimal Edge</h4>
+            <p class="text-gray-600 text-sm">Clean silhouettes meet sharp design in this standout collection.</p>
+          </div>
+        </div>
+        <div class="border rounded-lg shadow hover:shadow-xl transition">
+          <img src="https://source.unsplash.com/400x500/?fashion,accessories" alt="Accessories" class="w-full h-72 object-cover rounded-t-lg">
+          <div class="p-4">
+            <h4 class="font-bold text-lg mb-2">Essence Accessories</h4>
+            <p class="text-gray-600 text-sm">Elevate your style with finely curated essentials that speak volumes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">About VogueNova</h3>
+      <p class="max-w-3xl mx-auto text-gray-700 text-lg">At VogueNova, we believe fashion is more than just fabric — it's a voice, a mood, and a movement. Founded by designers with a vision for inclusivity and fearless creativity, our brand crafts wearable art that defies convention.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Get In Touch</h3>
+      <p class="text-gray-700 mb-4">Have questions, collaboration ideas, or want to carry our line? Reach out!</p>
+      <form class="max-w-xl mx-auto mt-6">
+        <input type="text" placeholder="Your Name" class="w-full px-4 py-3 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" />
+        <input type="email" placeholder="Your Email" class="w-full px-4 py-3 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400" />
+        <textarea placeholder="Your Message" rows="4" class="w-full px-4 py-3 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"></textarea>
+        <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-full hover:bg-indigo-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6 mt-10">
+    <div class="container mx-auto px-6 text-center text-sm">
+      © 2025 VogueNova. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
